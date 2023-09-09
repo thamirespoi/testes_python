@@ -1,7 +1,10 @@
 ## Calculadora de conversão de temperatura:
 
+# Celsius para Farenheit: celsius * 1.8 + 32
+# Celsius para Kelvin: celsius + 273.13
+
 print("========================================================")
-print("======= CALCULADORA DE CONVERSÃO DE TEMPERATURA ========")
+print("========= CALCULADORA CONVERSÃO DE TEMPERATURA =========")
 print("========================================================")
 
 temperaturaCelsius = float(input("Qual a temperaturaCelsius?"))
