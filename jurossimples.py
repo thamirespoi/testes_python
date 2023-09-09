@@ -7,9 +7,10 @@ print("=============================================")
 nome = input("Olá, qual é seu nome?")
 valorprincipal = float(input("Qual é o valor principal?"))
 taxadejurosanual = float(input("Qual a taxa de juros anual?"))
-tempoanual = int(input("Qual o período de tempo em anos?"))
+tempoanual = float(input("Qual o período de tempo em anos?"))
 
-montante = valorprincipal + (valorprincipal + taxadejurosanual + tempoanual)
+taxadejurosanualporcentagem = taxadejurosanual / 100
+montante = valorprincipal + (valorprincipal * taxadejurosanualporcentagem * tempoanual)
 valordojuros = montante - valorprincipal
 
 print("=============================================")
