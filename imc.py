@@ -1,7 +1,7 @@
 # Arquivo de IMC
 
-
-print("CALCULADORA DO IMC")
+print("===============================")
+print("===== CALCULADORA DO IMC ======")
 print("===============================")
 
 nome = input("Qual é seu nome?")
@@ -9,8 +9,7 @@ idade = int(input("Qual é sua idade?"))
 peso = float(input("Qual é seu peso?"))
 altura = float(input("Qual é sua altura?"))
 
-resultado1 = altura * altura
-imc = peso / resultado1
+imc = peso / (altura * altura)
 
 print("===============================")
 
