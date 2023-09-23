@@ -28,7 +28,7 @@ if (formadepagamento == 1):
 elif (formadepagamento == 2):
     if (valorcompra >= 1 and valorcompra < 800): 
         print("A compra pode ser dividida até em 5x sem juros")
-        parcelavezes = int(input("Digite o número de vezes que você quer dividir:")) 
+        parcelavezes = int(input("Digite o número ,de vezes que você quer dividir:")) 
         if(parcelavezes > 5 and parcelavezes >= 0):
             print("Valor de parcelamento indisponível.")  
     else:
